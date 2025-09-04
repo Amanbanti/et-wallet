@@ -1,4 +1,6 @@
-{
+import 'dotenv/config';
+
+export default {
   "expo": {
     "name": "mobile",
     "slug": "mobile",
@@ -16,7 +18,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "Et.Wallet"
     },
     "web": {
       "bundler": "metro",
@@ -32,11 +35,18 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
-        }
+        },
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d6c261e5-a08f-404a-af2c-87aef4b0634c"
+      },
+      "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY
     }
   }
 }
