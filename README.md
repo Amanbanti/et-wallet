@@ -19,8 +19,8 @@ This project is designed to provide a simple and secure way to manage digital tr
 
 > Add screenshots or demo GIFs here  
 
-![App Screenshot](./assets/images/screenshot1.png)  
-![Transaction Page](./assets/images/screenshot2.png)  
+![App Screenshot](./assets/demo1.jpg)  
+![Transaction Page](./assets/demo2.jpg)  
 
 ---
 
